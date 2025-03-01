@@ -1,26 +1,5 @@
-print("-" * 10)
-for i in range(10):
-    if i == 0 or i == 9:
-        print("|", end="")
-    else:
-        print("0", end="")
-print()
-for i in range(10):
-    if i == 0 or i == 9:
-        print("|", end="")
-    else:
-        print("0", end="")
-print()
-for i in range(10):
-    if i == 0 or i == 9:
-        print("|", end="")
-    else:
-        print("0", end="")
-print()
-for i in range(10):
-    if i == 0 or i == 9:
-        print("|", end="")
-    else:
-        print("0", end="")
-print()
-print("-" * 10)
+user_name = input("Как тебя зовут? ")
+print(user_name + ",", "купи слона!")
+while True:
+    user_answer = input("")
+    print("Все говорят", user_answer + ",", "а ты купи слона!")
